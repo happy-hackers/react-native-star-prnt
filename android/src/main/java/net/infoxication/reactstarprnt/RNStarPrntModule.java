@@ -275,8 +275,6 @@ public class RNStarPrntModule extends ReactContextBaseJavaModule {
 
   ;
 
-  private final ConnectionCallback mConnectionCallback = new ConnectionCallback();
-
   private WritableArray getPortDiscovery(String interfaceName) throws StarIOPortException {
     List<PortInfo> BTPortList;
     List<PortInfo> TCPPortList;
